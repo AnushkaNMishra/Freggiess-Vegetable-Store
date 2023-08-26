@@ -1,0 +1,33 @@
+.hero-container{
+    margin-top: 2vh;
+    width: 85%;
+    margin: 20px auto;
+    display: flex;
+}
+
+.hero-text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-title{
+    font-weight: 700;
+    color: #14853C;
+    font-size: 5rem;
+}
+
+.hero-desc{
+    margin-top: 20px;
+    font-weight: 600;
+    color: black;
+    font-size: 1.4rem;
+}
+
+.hero-img-container{
+    margin-left: 200px;
+}
+
+.hero-img-container img{
+    height: 85vh;
+}

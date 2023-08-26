@@ -1,0 +1,57 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.account-form {
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 600px;
+  min-height: 600px;
+  margin-top: 150px;
+  text-align: left;
+}
+
+.myacc-form-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.myacc-form-row label {
+  text-decoration-thickness: 7px;
+  width: 10px;
+}
+
+.myacc-form-row input {
+  padding: 7px;
+  flex-grow: 0.5;
+  width: 100px;
+  justify-content: left;
+  border: 3px solid #bffd;
+  border-color: black;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: right;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.form-buttons button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  height: 50px;
+  width: 100px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.form-buttons button:hover {
+  background-color: #45a049;
+}

@@ -1,0 +1,21 @@
+.desc-container {
+    color: black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: 10vh auto;
+    flex-direction: column;
+}
+
+.desc-title {
+    font-weight: 600;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.desc-text {
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Maven Pro', sans-serif;
+}

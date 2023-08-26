@@ -1,0 +1,95 @@
+.my-contact-form label {
+  min-height: 50px;
+  padding: 15px 5px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.my-contact-form input {
+  border: none;
+  border-bottom: 0.5px solid gray;
+  outline: none;
+  min-height: 50px;
+  padding: 18px 5px;
+  padding-bottom: 20px;
+  font-size: 1rem;
+}
+
+.my-contact-form input:hover,
+.my-contact-form input:focus {
+  border: 0.5px solid gray;
+}
+
+.contact-container {
+  width: 85%;
+  margin: 10vh auto;
+  display: flex;
+  background-color: #f7f6f6;
+  min-height: 90vh;
+}
+
+.contact-details {
+  min-width: 55%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-title {
+  color: #14853c;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-top: 10%;
+}
+
+.contact-address {
+  margin: 5% 0;
+}
+
+.contact-phone {
+  margin-top: 5%;
+}
+
+.contact-form {
+  margin-top: 5%;
+}
+
+.contact-form input {
+  background-color: #f7f6f6;
+}
+
+.form-row {
+  display: flex;
+  margin-top: 5%;
+}
+
+.form-half-wd {
+  margin-right: 20px;
+}
+
+.form-half-wd input {
+  min-width: 240px;
+}
+
+.form-full-wd input {
+  min-width: 480px;
+}
+
+#message-field {
+  padding-bottom: 100px;
+}
+
+.contact-form button {
+  margin-top: 5%;
+  min-width: 480px;
+  height: 50px;
+  background-color: black;
+  color: aliceblue;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.required::after {
+  content: " *";
+  color: black;
+  font-size: 1.1rem;
+}
