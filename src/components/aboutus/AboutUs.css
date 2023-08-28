@@ -1,0 +1,84 @@
+.bg-img{
+    background-image: url("./aboutus7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+     height: 570px;
+    padding-top: 5px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+.aboutus-body{
+    
+    max-width: 1300px;
+    margin: auto;
+    color: black;
+    
+    background-color: rgb(255, 255, 255); 
+    font-size: 18px;
+    font-family:sans-serif;
+}
+
+.aboutus-h1{
+    
+        text-align: center;
+        color: rgb(0, 1, 1);
+        
+    
+}
+
+.aboutus-h4{
+    font: italic small-caps bolder 25px arial, sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+
+.content{
+    background-color: rgba(255, 255, 255, 0.7);
+    height:210px;
+    max-width: 550px;
+    padding: 10px 10px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.aboutus-para{
+    margin-top: 70px;
+}
+.aboutus-p{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 190px;
+    margin-right: 190px;
+    font-size: medium;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.4;
+}
+
+.aboutus-button{
+    margin-top: 200px;
+    align-content: center;
+    margin-bottom: 200px;
+}
+
+.button {
+    
+    color: rgb(255, 255, 255);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .button1 {
+    background-color: rgb(255, 255, 255); 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+  
+  .button1:hover {
+    background-color: #1d9637;
+    color: white;
+  }
